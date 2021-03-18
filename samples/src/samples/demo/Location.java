@@ -4,7 +4,6 @@ public class Location {
 	
 	private String nice;
 	private String name;
-	private int number;
 	
 	public String getNice() {
 		return nice;
@@ -20,10 +19,5 @@ public class Location {
 		this.name = newName;
 	}
 	
-	public int getNumber() {
-		return number;
-	}
-	public void setNumber(int newNumber) {
-		this.number = newNumber;
-	}
+
 }
